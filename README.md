@@ -98,23 +98,23 @@
 |**OReole-FM**|**OReole-FM: successes and challenges toward billion-parameter foundation models for high-resolution satellite imagery**|SIGSPATIAL2024|[OReole-FM](https://arxiv.org/abs/2410.19965)|null|
 |**PIEViT**|**Pattern Integration and Enhancement Vision Transformer for Self-supervised Learning in Remote Sensing**|Arxiv2024|[PIEViT](https://arxiv.org/pdf/2411.06091)|null|
 |**SatVision-TOA**|**SatVision-TOA: A Geospatial Foundation Model for Coarse-Resolution All-Sky Remote Sensing Imagery**|Arxiv2024|[SatVision-TOA](https://arxiv.org/abs/2411.17000)|[link](https://github.com/nasa-nccs-hpda/pytorch-caney)|
-|**RS-vHeat**|**RS-vHeat: Heat Conduction Guided Efficient Remote Sensing Foundation Model**|Arxiv2024|[RS-vHeat](https://arxiv.org/abs/2411.17984)|null|
 |**Prithvi-EO-2.0**|**Prithvi-EO-2.0: A Versatile Multi-Temporal Foundation Model for Earth Observation Applications**|Arxiv2024|[Prithvi-EO-2.0](https://arxiv.org/abs/2412.02732)|[link](https://github.com/NASA-IMPACT/Prithvi-EO-2.0)|
-|**AnySat**|**AnySat: An Earth Observation Model for Any Resolutions, Scales, and Modalities**|Arxiv2024|[AnySat](https://arxiv.org/abs/2412.14123)|[link](https://github.com/gastruc/AnySat)|
 |**WildSAT**|**WildSAT: Learning Satellite Image Representations from Wildlife Observations**|Arxiv2024|[WildSAT](https://arxiv.org/abs/2412.14428)|[link](https://github.com/mdchuc/HRSFM)|
 |**SeaMo**|**SeaMo: A Multi-Seasonal and Multimodal Remote Sensing Foundation Model**|Arxiv2024|[SeaMo](https://arxiv.org/abs/2412.19237)|null|
 |**FoMo**|**FoMo: Multi-Modal, Multi-Scale and Multi-Task Remote Sensing Foundation Models for Forest Monitoring**|AAAI2025|[FoMo](https://arxiv.org/abs/2312.10114)|[link](https://github.com/RolnickLab/FoMo-Bench)|
 |**SatMamba**|**SatMamba: Development of Foundation Models for Remote Sensing Imagery Using State Space Models**|Arxiv2025|[SatMamba](https://arxiv.org/abs/2502.00435)|[link](https://github.com/mdchuc/HRSFM)|
-|**Galileo**|**Galileo: Learning Global and Local Features in Pretrained Remote Sensing Models**|Arxiv2025|[Galileo](https://arxiv.org/abs/2502.09356)|[link](https://github.com/nasaharvest/galileo)|
+|**Galileo**|**Galileo: Learning Global and Local Features in Pretrained Remote Sensing Models**|ICML2025|[Galileo](https://arxiv.org/abs/2502.09356)|[link](https://github.com/nasaharvest/galileo)|
 |**SatDiFuser**|**Can Generative Geospatial Diffusion Models Excel as Discriminative Geospatial Foundation Models?**|Arxiv2025|[SatDiFuser](https://arxiv.org/abs/2503.07890)|null|
 |**RoMA**|**RoMA: Scaling up Mamba-based Foundation Models for Remote Sensing**|Arxiv2025|[RoMA](https://arxiv.org/abs/2503.10392)|[link](https://github.com/MiliLab/RoMA)|
-|**Panopticon**|**Panopticon: Advancing Any-Sensor Foundation Models for Earth Observation**|Arxiv2025|[Panopticon](https://arxiv.org/abs/2503.10845)|[link](https://github.com/Panopticon-FM/panopticon)|
-|**FedSense**|**Towards Privacy-preserved Pre-training of Remote Sensing Foundation Models with Federated Mutual-guidance Learning**|Arxiv2025|[FedSense](https://arxiv.org/abs/2503.11051)|null|
-|**Copernicus-FM**|**Towards a Unified Copernicus Foundation Model for Earth Vision**|Arxiv2025|[Copernicus-FM](https://arxiv.org/abs/2503.11849)|[link](https://github.com/zhu-xlab/Copernicus-FM)|
+|**Panopticon**|**Panopticon: Advancing Any-Sensor Foundation Models for Earth Observation**|CVPR2025|[Panopticon](https://arxiv.org/abs/2503.10845)|[link](https://github.com/Panopticon-FM/panopticon)|
 |**HyperFree**|**HyperFree: A Channel-adaptive and Tuning-free Foundation Model for Hyperspectral Remote Sensing Imagery**|CVPR2025|[HyperFree](https://rsidea.whu.edu.cn/HyperFree.pdf)|[link](https://github.com/Jingtao-Li-CVer/HyperFree)|
+|**AnySat**|**AnySat: An Earth Observation Model for Any Resolutions, Scales, and Modalities**|CVPR2025|[AnySat](https://arxiv.org/abs/2412.14123)|[link](https://github.com/gastruc/AnySat)|
 |**DynamicVis**|**DynamicVis: An Efficient and General Visual Foundation Model for Remote Sensing Image Understanding**|Arxiv2025|[DynamicVis](https://arxiv.org/abs/2503.16426)|[link](https://github.com/KyanChen/DynamicVis)|
 |**FlexiMo**|**FlexiMo: A Flexible Remote Sensing Foundation Model**|Arxiv2025|[FlexiMo](https://arxiv.org/abs/2503.23844)|null|
 |**RingMoE**|**RingMoE: Mixture-of-Modality-Experts Multi-Modal Foundation Models for Universal Remote Sensing Image Interpretation**|Arxiv2025|[RingMoE](https://arxiv.org/abs/2504.03166)|null|
+|**FedSense**|**Towards Privacy-preserved Pre-training of Remote Sensing Foundation Models with Federated Mutual-guidance Learning**|ICCV2025|[FedSense](https://arxiv.org/abs/2503.11051)|null|
+|**RS-vHeat**|**RS-vHeat: Heat Conduction Guided Efficient Remote Sensing Foundation Model**|ICCV2025|[RS-vHeat](https://arxiv.org/abs/2411.17984)|null|
+|**Copernicus-FM**|**Towards a Unified Copernicus Foundation Model for Earth Vision**|ICCV2025|[Copernicus-FM](https://arxiv.org/abs/2503.11849)|[link](https://github.com/zhu-xlab/Copernicus-FM)|
 
 
 ## Remote Sensing <ins>Vision-Language</ins> Foundation Models
