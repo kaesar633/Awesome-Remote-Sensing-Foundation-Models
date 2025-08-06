@@ -7,7 +7,9 @@
 :star2:**A collection of papers, datasets, benchmarks, code, and pre-trained weights for Remote Sensing Foundation Models (RSFMs).**
 
 ## 📢 Latest Updates
-:fire::fire::fire: Last Updated on 2025.04.09 :fire::fire::fire:
+:fire::fire::fire: Last Updated on 2025.08.07 :fire::fire::fire:
+
+- **2025.08.04**: Our recent work, [SkySense++](https://www.nature.com/articles/s42256-025-01078-8), a follow-up to our [SkySense](https://github.com/Jack-bo1220/SkySense) model, is accepted by Nature Machine Intelligence. We have released the code and pretrained weights at [this repository](https://github.com/kang-wu/SkySensePlusPlus).
 
 ## Table of Contents
 - **Models**
@@ -77,16 +79,14 @@
 |**S2MAE**|**S2MAE: A Spatial-Spectral Pretraining Foundation Model for Spectral Remote Sensing Data**|CVPR2024|[S2MAE](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_S2MAE_A_Spatial-Spectral_Pretraining_Foundation_Model_for_Spectral_Remote_Sensing_CVPR_2024_paper.pdf)|null|
 |**SatMAE++**|**Rethinking Transformers Pre-training for Multi-Spectral Satellite Imagery**|CVPR2024|[SatMAE++](https://arxiv.org/abs/2403.05419)|[link](https://github.com/techmn/satmae_pp)|
 |**msGFM**|**Bridging Remote Sensors with Multisensor Geospatial Foundation Models**|CVPR2024|[msGFM](https://arxiv.org/abs/2404.01260)|[link](https://github.com/boranhan/Geospatial_Foundation_Models)|
-|**SkySense**|**SkySense: A Multi-Modal Remote Sensing Foundation Model Towards Universal Interpretation for Earth Observation Imagery**|CVPR2024|[SkySense](https://arxiv.org/abs/2312.10115)|Targeted open-source|
-|**MTP**|**MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining**|Arxiv2024|[MTP](https://arxiv.org/abs/2403.13430)|[link](https://github.com/ViTAE-Transformer/MTP)|
+|**SkySense**|**SkySense: A Multi-Modal Remote Sensing Foundation Model Towards Universal Interpretation for Earth Observation Imagery**|CVPR2024|[SkySense](https://openaccess.thecvf.com/content/CVPR2024/html/Guo_SkySense_A_Multi-Modal_Remote_Sensing_Foundation_Model_Towards_Universal_Interpretation_CVPR_2024_paper.html)|[link](https://github.com/Jack-bo1220/SkySense)|
+|**MTP**|**MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining**|IEEE JSTARS2024|[MTP](https://arxiv.org/abs/2403.13430)|[link](https://github.com/ViTAE-Transformer/MTP)|
 |**DOFA**|**Neural Plasticity-Inspired Foundation Model for Observing the Earth Crossing Modalities**|Arxiv2024|[DOFA](https://arxiv.org/abs/2403.15356)|[link](https://github.com/zhu-xlab/DOFA)|
 |**MMEarth**|**MMEarth: Exploring Multi-Modal Pretext Tasks For Geospatial Representation Learning**|ECCV2024|[MMEarth](https://arxiv.org/abs/2405.02771)|[link](https://vishalned.github.io/mmearth/)|
 |**LeMeViT**|**LeMeViT: Efficient Vision Transformer with Learnable Meta Tokens for Remote Sensing Image Interpretation**|IJCAI2024|[LeMeViT](https://arxiv.org/abs/2405.09789)|[link](https://github.com/ViTAE-Transformer/LeMeViT/tree/main?tab=readme-ov-file)|
 |**SoftCon**|**Multi-Label Guided Soft Contrastive Learning for Efficient Earth Observation Pretraining**|TGRS2024|[SoftCon](https://ieeexplore.ieee.org/abstract/document/10726860)|[link](https://github.com/zhu-xlab/softcon?tab=readme-ov-file)|
 |**RS-DFM**|**RS-DFM: A Remote Sensing Distributed Foundation Model for Diverse Downstream Tasks**|Arxiv2024|[RS-DFM](https://arxiv.org/abs/2406.07032)|null|
 |**A2-MAE**|**A2-MAE: A spatial-temporal-spectral unified remote sensing pre-training method based on anchor-aware masked autoencoder**|Arxiv2024|[A2-MAE](https://arxiv.org/abs/2406.08079)|null|
-|**HyperSIGMA**|**HyperSIGMA: Hyperspectral Intelligence Comprehension Foundation Model**|Arxiv2024|[HyperSIGMA](https://arxiv.org/abs/2406.11519)|[link](https://github.com/WHU-Sigma/HyperSIGMA?tab=readme-ov-file)|
-|**SelectiveMAE**|**Scaling Efficient Masked Autoencoder Learning on Large Remote Sensing Dataset**|Arxiv2024|[SelectiveMAE](https://arxiv.org/abs/2406.11933)|[link](https://github.com/Fengxiang23/SelectiveMAE)|
 |**OmniSat**|**OmniSat: Self-Supervised Modality Fusion for Earth Observation**|ECCV2024|[OmniSat](https://arxiv.org/pdf/2404.08351)|[link](https://github.com/gastruc/OmniSat?tab=readme-ov-file)|
 |**MM-VSF**|**Towards a Knowledge guided Multimodal Foundation Model for Spatio-Temporal Remote Sensing Applications**|Arxiv2024|[MM-VSF](https://arxiv.org/pdf/2407.19660)|null|
 |**MA3E**|**Masked Angle-Aware Autoencoder for Remote Sensing Images**|ECCV2024|[MA3E](https://arxiv.org/abs/2408.01946)|[link](https://github.com/benesakitam/MA3E)|
@@ -100,7 +100,8 @@
 |**SatVision-TOA**|**SatVision-TOA: A Geospatial Foundation Model for Coarse-Resolution All-Sky Remote Sensing Imagery**|Arxiv2024|[SatVision-TOA](https://arxiv.org/abs/2411.17000)|[link](https://github.com/nasa-nccs-hpda/pytorch-caney)|
 |**Prithvi-EO-2.0**|**Prithvi-EO-2.0: A Versatile Multi-Temporal Foundation Model for Earth Observation Applications**|Arxiv2024|[Prithvi-EO-2.0](https://arxiv.org/abs/2412.02732)|[link](https://github.com/NASA-IMPACT/Prithvi-EO-2.0)|
 |**WildSAT**|**WildSAT: Learning Satellite Image Representations from Wildlife Observations**|Arxiv2024|[WildSAT](https://arxiv.org/abs/2412.14428)|[link](https://github.com/mdchuc/HRSFM)|
-|**SeaMo**|**SeaMo: A Multi-Seasonal and Multimodal Remote Sensing Foundation Model**|Arxiv2024|[SeaMo](https://arxiv.org/abs/2412.19237)|null|
+|**SeaMo**|**SeaMo: A Multi-Seasonal and Multimodal Remote Sensing Foundation Model**|Information Fusion2025|[SeaMo](https://www.sciencedirect.com/science/article/pii/S1566253525004075)|null|
+|**HyperSIGMA**|**HyperSIGMA: Hyperspectral Intelligence Comprehension Foundation Model**|IEEE TPAMI2025|[HyperSIGMA](https://arxiv.org/abs/2406.11519)|[link](https://github.com/WHU-Sigma/HyperSIGMA?tab=readme-ov-file)|
 |**FoMo**|**FoMo: Multi-Modal, Multi-Scale and Multi-Task Remote Sensing Foundation Models for Forest Monitoring**|AAAI2025|[FoMo](https://arxiv.org/abs/2312.10114)|[link](https://github.com/RolnickLab/FoMo-Bench)|
 |**SatMamba**|**SatMamba: Development of Foundation Models for Remote Sensing Imagery Using State Space Models**|Arxiv2025|[SatMamba](https://arxiv.org/abs/2502.00435)|[link](https://github.com/mdchuc/HRSFM)|
 |**Galileo**|**Galileo: Learning Global and Local Features in Pretrained Remote Sensing Models**|ICML2025|[Galileo](https://arxiv.org/abs/2502.09356)|[link](https://github.com/nasaharvest/galileo)|
@@ -109,12 +110,26 @@
 |**Panopticon**|**Panopticon: Advancing Any-Sensor Foundation Models for Earth Observation**|CVPR2025|[Panopticon](https://arxiv.org/abs/2503.10845)|[link](https://github.com/Panopticon-FM/panopticon)|
 |**HyperFree**|**HyperFree: A Channel-adaptive and Tuning-free Foundation Model for Hyperspectral Remote Sensing Imagery**|CVPR2025|[HyperFree](https://rsidea.whu.edu.cn/HyperFree.pdf)|[link](https://github.com/Jingtao-Li-CVer/HyperFree)|
 |**AnySat**|**AnySat: An Earth Observation Model for Any Resolutions, Scales, and Modalities**|CVPR2025|[AnySat](https://arxiv.org/abs/2412.14123)|[link](https://github.com/gastruc/AnySat)|
+|**HyperSL**|**HyperSL: A Spectral Foundation Model for Hyperspectral Image Interpretation**|IEEE TGRS2025|[HyperSL](https://ieeexplore.ieee.org/abstract/document/10981753)|[link](https://github.com/kkweil/HyperSL)|
 |**DynamicVis**|**DynamicVis: An Efficient and General Visual Foundation Model for Remote Sensing Image Understanding**|Arxiv2025|[DynamicVis](https://arxiv.org/abs/2503.16426)|[link](https://github.com/KyanChen/DynamicVis)|
 |**FlexiMo**|**FlexiMo: A Flexible Remote Sensing Foundation Model**|Arxiv2025|[FlexiMo](https://arxiv.org/abs/2503.23844)|null|
+|**TiMo**|**TiMo: Spatiotemporal Foundation Model for Satellite Image Time Series**|Arxiv2025|[TiMo](https://arxiv.org/abs/2505.08723)|[link](https://github.com/MiliLab/TiMo)|
 |**RingMoE**|**RingMoE: Mixture-of-Modality-Experts Multi-Modal Foundation Models for Universal Remote Sensing Image Interpretation**|Arxiv2025|[RingMoE](https://arxiv.org/abs/2504.03166)|null|
+|**-**|**A Complex-valued SAR Foundation Model Based on Physically Inspired Representation Learning**|Arxiv2025|[Paper](https://arxiv.org/abs/2504.11999)|null|
+|**TerraFM**|**TerraFM: A Scalable Foundation Model for Unified Multisensor Earth Observation**|Arxiv2025|[TerraFM](https://arxiv.org/abs/2506.06281)|[link](https://github.com/mbzuai-oryx/TerraFM)|
+|**TESSERA**|**TESSERA: Temporal Embeddings of Surface Spectra for Earth Representation and Analysis**|Arxiv2025|[TESSERA](https://arxiv.org/abs/2506.20380)|null|
+|**MoSAiC**|**MoSAiC: Multi-Modal Multi-Label Supervision-Aware Contrastive Learning for Remote Sensing**|Arxiv2025|[MoSAiC](https://arxiv.org/abs/2507.08683)|null|
+|**CGEarthEye**|**CGEarthEye:A High-Resolution Remote Sensing Vision Foundation Model Based on the Jilin-1 Satellite Constellation**|Arxiv2025|[CGEarthEye](https://arxiv.org/abs/2507.00356)|null|
+|**MAPEX**|**MAPEX: Modality-Aware Pruning of Experts for Remote Sensing Foundation Models**|Arxiv2025|[MAPEX](https://arxiv.org/abs/2507.07527)|[link](https://github.com/HSG-AIML/MAPEX)|
 |**FedSense**|**Towards Privacy-preserved Pre-training of Remote Sensing Foundation Models with Federated Mutual-guidance Learning**|ICCV2025|[FedSense](https://arxiv.org/abs/2503.11051)|null|
 |**RS-vHeat**|**RS-vHeat: Heat Conduction Guided Efficient Remote Sensing Foundation Model**|ICCV2025|[RS-vHeat](https://arxiv.org/abs/2411.17984)|null|
 |**Copernicus-FM**|**Towards a Unified Copernicus Foundation Model for Earth Vision**|ICCV2025|[Copernicus-FM](https://arxiv.org/abs/2503.11849)|[link](https://github.com/zhu-xlab/Copernicus-FM)|
+|**SelectiveMAE**|**Scaling Efficient Masked Autoencoder Learning on Large Remote Sensing Dataset**|ICCV2025|[SelectiveMAE](https://arxiv.org/abs/2406.11933)|[link](https://github.com/Fengxiang23/SelectiveMAE)|
+|**SMARTIES**|**SMARTIES: Spectrum-Aware Multi-Sensor Auto-Encoder for Remote Sensing Images**|ICCV2025|[SMARTIES](https://arxiv.org/abs/2506.19585)|[link](https://gsumbul.github.io/SMARTIES/)|
+|**TerraMind**|**TerraMind: Large-Scale Generative Multimodality for Earth Observation**|ICCV2025|[TerraMind](https://arxiv.org/abs/2504.11171)|[link](https://github.com/IBM/terramind)|
+|**SkySense V2**|**SkySense V2: A Unified Foundation Model for Multi-modal Remote Sensing**|ICCV2025|[SkySense V2](https://arxiv.org/abs/2507.13812)|null|
+|**AlphaEarth**|**AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data**|Arxiv2025|[AlphaEarth](https://arxiv.org/abs/2507.22291)|null|
+|**SkySense++**|**A semantic-enhanced multi-modal remote sensing foundation model for Earth observation**|Nature Machine Intelligence 2025|[SkySense++](https://www.nature.com/articles/s42256-025-01078-8)|[link](https://github.com/kang-wu/SkySensePlusPlus?tab=readme-ov-file)|
 
 
 ## Remote Sensing <ins>Vision-Language</ins> Foundation Models
@@ -122,41 +137,50 @@
 |Abbreviation|Title|Publication|Paper|Code & Weights|
 |:---:|---|:---:|:---:|:---:|
 |**RSGPT**|**RSGPT: A Remote Sensing Vision Language Model and Benchmark**|Arxiv2023|[RSGPT](https://arxiv.org/abs/2307.15266)|[link](https://github.com/Lavender105/RSGPT)|
-|**RemoteCLIP**|**RemoteCLIP: A Vision Language Foundation Model for Remote Sensing**|Arxiv2023|[RemoteCLIP](https://arxiv.org/abs/2306.11029)|[link](https://github.com/ChenDelong1999/RemoteCLIP)|
-|**GeoRSCLIP**|**RS5M: A Large Scale Vision-Language Dataset for Remote Sensing Vision-Language Foundation Model**|Arxiv2023|[GeoRSCLIP](https://arxiv.org/abs/2306.11300)|[link](https://github.com/om-ai-lab/RS5M?tab=readme-ov-file)|
+|**RemoteCLIP**|**RemoteCLIP: A Vision Language Foundation Model for Remote Sensing**|IEEE TGRS2024|[RemoteCLIP](https://arxiv.org/abs/2306.11029)|[link](https://github.com/ChenDelong1999/RemoteCLIP)|
+|**GeoRSCLIP**|**RS5M: A Large Scale Vision-Language Dataset for Remote Sensing Vision-Language Foundation Model**|IEEE TGRS2024|[GeoRSCLIP](https://arxiv.org/abs/2306.11300)|[link](https://github.com/om-ai-lab/RS5M?tab=readme-ov-file)|
 |**GRAFT**|**Remote Sensing Vision-Language Foundation Models without Annotations via Ground Remote Alignment**|ICLR2024|[GRAFT](https://openreview.net/pdf?id=w9tc699w3Z)|null|
 |**-**|**Charting New Territories: Exploring the Geographic and Geospatial Capabilities of Multimodal LLMs**|Arxiv2023|[Paper](https://arxiv.org/abs/2311.14656)|[link](https://github.com/jonathan-roberts1/charting-new-territories)|
 |**-**|**Remote Sensing ChatGPT: Solving Remote Sensing Tasks with ChatGPT and Visual Models**|Arxiv2024|[Paper](https://arxiv.org/abs/2401.09083)|[link](https://github.com/HaonanGuo/Remote-Sensing-ChatGPT)|
-|**SkyEyeGPT**|**SkyEyeGPT: Unifying Remote Sensing Vision-Language Tasks via Instruction Tuning with Large Language Model**|Arxiv2024|[Paper](https://arxiv.org/abs/2401.09712)|[link](https://github.com/ZhanYang-nwpu/SkyEyeGPT)|
-|**EarthGPT**|**EarthGPT: A Universal Multi-modal Large Language Model for Multi-sensor Image Comprehension in Remote Sensing Domain**|Arxiv2024|[Paper](https://arxiv.org/abs/2401.16822)|null|
+|**EarthGPT**|**EarthGPT: A Universal Multi-modal Large Language Model for Multi-sensor Image Comprehension in Remote Sensing Domain**|Arxiv2024|[EarthGPT](https://arxiv.org/abs/2401.16822)|null|
 |**SkyCLIP**|**SkyScript: A Large and Semantically Diverse Vision-Language Dataset for Remote Sensing**|AAAI2024|[SkyCLIP](https://arxiv.org/abs/2312.12856)|[link](https://github.com/wangzhecheng/SkyScript)|
 |**GeoChat**|**GeoChat: Grounded Large Vision-Language Model for Remote Sensing**|CVPR2024|[GeoChat](https://arxiv.org/abs/2311.15826)|[link](https://github.com/mbzuai-oryx/GeoChat)|
-|**LHRS-Bot**|**LHRS-Bot: Empowering Remote Sensing with VGI-Enhanced Large Multimodal Language Model**|Arxiv2024|[Paper](https://arxiv.org/abs/2402.02544)|[link](https://github.com/NJU-LHRS/LHRS-Bot)|
-|**H2RSVLM**|**H2RSVLM: Towards Helpful and Honest Remote Sensing Large Vision Language Model**|Arxiv2024|[Paper](https://arxiv.org/abs/2403.20213)|[link](https://github.com/opendatalab/H2RSVLM)|
-|**RS-LLaVA**|**RS-LLaVA: Large Vision Language Model for Joint Captioning and Question Answering in Remote Sensing Imagery**|RS2024|[Paper](https://www.mdpi.com/2072-4292/16/9/1477)|[link](https://github.com/BigData-KSU/RS-LLaVA?tab=readme-ov-file)|
-|**SkySenseGPT**|**SkySenseGPT: A Fine-Grained Instruction Tuning Dataset and Model for Remote Sensing Vision-Language Understanding**|Arxiv2024|[Paper](https://arxiv.org/abs/2406.10100)|[link](https://github.com/Luo-Z13/SkySenseGPT)|
-|**EarthMarker**|**EarthMarker: Visual Prompt Learning for Region-level and Point-level Remote Sensing Imagery Comprehension**|Arxiv2024|[Paper](https://arxiv.org/abs/2407.13596)|[link](https://github.com/wivizhang/EarthMarker)|
-|**GeoText**|**Towards Natural Language-Guided Drones: GeoText-1652 Benchmark with Spatial Relation Matching**|ECCV2024|[Paper](https://arxiv.org/abs/2311.12751)|[link](https://multimodalgeo.github.io/GeoText/)|
-|**TEOChat**|**TEOChat: Large Language and Vision Assistant for Temporal Earth Observation Data**|Arxiv2024|[Paper](https://arxiv.org/abs/2410.06234)|[link](https://github.com/ermongroup/TEOChat)|
-|**Aquila**|**Aquila: A Hierarchically Aligned Visual-Language Model for Enhanced Remote Sensing Image Comprehension**|Arxiv2024|[Paper](https://arxiv.org/pdf/2411.06074)|null|
-|**LHRS-Bot-Nova**|**LHRS-Bot-Nova: Improved Multimodal Large Language Model for Remote Sensing Vision-Language Interpretation**|Arxiv2024|[Paper](https://arxiv.org/pdf/2411.09301)|[link](https://github.com/NJU-LHRS/LHRS-Bot)|
-|**RSCLIP**|**Pushing the Limits of Vision-Language Models in Remote Sensing without Human Annotations**|Arxiv2024|[Paper](https://arxiv.org/pdf/2409.07048)|null|
-|**GeoGround**|**GeoGround: A Unified Large Vision-Language Model for Remote Sensing Visual Grounding**|Arxiv2024|[Paper](https://arxiv.org/abs/2411.11904)|[link](https://github.com/zytx121/GeoGround)|
-|**RingMoGPT**|**RingMoGPT: A Unified Remote Sensing Foundation Model for Vision, Language, and grounded tasks**|TGRS2024|[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10777289)|null|
-|**RSUniVLM**|**RSUniVLM: A Unified Vision Language Model for Remote Sensing via Granularity-oriented Mixture of Experts**|Arxiv2024|[Paper](https://arxiv.org/abs/2412.05679)|[link](https://rsunivlm.github.io/)|
-|**EarthDial**|**EarthDial: Turning Multi-sensory Earth Observations to Interactive Dialogues**|Arxiv2024|[Paper](https://arxiv.org/pdf/2412.15190#page=3.84)|null|
-|**UniRS**|**UniRS: Unifying Multi-temporal Remote Sensing Tasks through Vision Language Models**|Arxiv2024|[Paper](https://arxiv.org/abs/2412.20742v1)|null|
-|**REO-VLM**|**REO-VLM: Transforming VLM to Meet Regression Challenges in Earth Observation**|Arxiv2024|[Paper](https://arxiv.org/abs/2412.16583)|null|
-|**VHM**|**VHM: Versatile and Honest Vision Language Model for Remote Sensing Image Analysis**|AAAI2025|[Paper](https://arxiv.org/abs/2403.20213v4)|[link](https://github.com/opendatalab/VHM)|
-|**GeoPix**|**GeoPix: Multi-Modal Large Language Model for Pixel-level Image Understanding in Remote Sensing**|Arxiv2025|[Paper](https://arxiv.org/abs/2501.06828)|null|
-|**GeoPixel**|**GeoPixel: Pixel Grounding Large Multimodal Model in Remote Sensing**|Arxiv2025|[Paper](https://arxiv.org/abs/2501.13925)|[link](https://github.com/mbzuai-oryx/GeoPixel)|
+|**LHRS-Bot**|**LHRS-Bot: Empowering Remote Sensing with VGI-Enhanced Large Multimodal Language Model**|ECCV2024|[LHRS-Bot](https://arxiv.org/abs/2402.02544)|[link](https://github.com/NJU-LHRS/LHRS-Bot)|
+|**RS-LLaVA**|**RS-LLaVA: Large Vision Language Model for Joint Captioning and Question Answering in Remote Sensing Imagery**|RS2024|[RS-LLaVA](https://www.mdpi.com/2072-4292/16/9/1477)|[link](https://github.com/BigData-KSU/RS-LLaVA?tab=readme-ov-file)|
+|**SkySenseGPT**|**SkySenseGPT: A Fine-Grained Instruction Tuning Dataset and Model for Remote Sensing Vision-Language Understanding**|Arxiv2024|[SkySenseGPT](https://arxiv.org/abs/2406.10100)|[link](https://github.com/Luo-Z13/SkySenseGPT)|
+|**EarthMarker**|**EarthMarker: Visual Prompt Learning for Region-level and Point-level Remote Sensing Imagery Comprehension**|IEEE TGRS2024|[EarthMarker](https://arxiv.org/abs/2407.13596)|[link](https://github.com/wivizhang/EarthMarker)|
+|**GeoText**|**Towards Natural Language-Guided Drones: GeoText-1652 Benchmark with Spatial Relation Matching**|ECCV2024|[Aquila](https://arxiv.org/abs/2311.12751)|[link](https://multimodalgeo.github.io/GeoText/)|
+|**Aquila**|**Aquila: A Hierarchically Aligned Visual-Language Model for Enhanced Remote Sensing Image Comprehension**|Arxiv2024|[Aquila](https://arxiv.org/pdf/2411.06074)|null|
+|**LHRS-Bot-Nova**|**LHRS-Bot-Nova: Improved Multimodal Large Language Model for Remote Sensing Vision-Language Interpretation**|Arxiv2024|[LHRS-Bot-Nova](https://arxiv.org/pdf/2411.09301)|[link](https://github.com/NJU-LHRS/LHRS-Bot)|
+|**RSCLIP**|**Pushing the Limits of Vision-Language Models in Remote Sensing without Human Annotations**|Arxiv2024|[RSCLIP](https://arxiv.org/pdf/2409.07048)|null|
+|**GeoGround**|**GeoGround: A Unified Large Vision-Language Model for Remote Sensing Visual Grounding**|Arxiv2024|[GeoGround](https://arxiv.org/abs/2411.11904)|[link](https://github.com/zytx121/GeoGround)|
+|**RingMoGPT**|**RingMoGPT: A Unified Remote Sensing Foundation Model for Vision, Language, and grounded tasks**|TGRS2024|[RingMoGPT](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10777289)|null|
+|**RSUniVLM**|**RSUniVLM: A Unified Vision Language Model for Remote Sensing via Granularity-oriented Mixture of Experts**|Arxiv2024|[RSUniVLM](https://arxiv.org/abs/2412.05679)|[link](https://rsunivlm.github.io/)|
+|**UniRS**|**UniRS: Unifying Multi-temporal Remote Sensing Tasks through Vision Language Models**|Arxiv2024|[UniRS](https://arxiv.org/abs/2412.20742v1)|null|
+|**REO-VLM**|**REO-VLM: Transforming VLM to Meet Regression Challenges in Earth Observation**|Arxiv2024|[REO-VLM](https://arxiv.org/abs/2412.16583)|null|
+|**SkyEyeGPT**|**SkyEyeGPT: Unifying Remote Sensing Vision-Language Tasks via Instruction Tuning with Large Language Model**|ISPRS JPRS2025|[SkyEyeGPT](https://arxiv.org/abs/2401.09712)|[link](https://github.com/ZhanYang-nwpu/SkyEyeGPT)|
+|**VHM**|**VHM: Versatile and Honest Vision Language Model for Remote Sensing Image Analysis**|AAAI2025|[VHM](https://arxiv.org/abs/2403.20213v4)|[link](https://github.com/opendatalab/VHM)|
+|**TEOChat**|**TEOChat: Large Language and Vision Assistant for Temporal Earth Observation Data**|ICLR2025|[TEOChat](https://arxiv.org/abs/2410.06234)|[link](https://github.com/ermongroup/TEOChat)|
+|**EarthDial**|**EarthDial: Turning Multi-sensory Earth Observations to Interactive Dialogues**|CVPR2025|[EarthDial](https://arxiv.org/pdf/2412.15190#page=3.84)|[link](https://github.com/hiyamdebary/EarthDial)|
+|**SkySense-O**|**SkySense-O: Towards Open-World Remote Sensing Interpretation with Vision-Centric Visual-Language Modeling**|CVPR2025|[SkySense-O](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhu_SkySense-O_Towards_Open-World_Remote_Sensing_Interpretation_with_Vision-Centric_Visual-Language_Modeling_CVPR_2025_paper.pdf)|[link](https://github.com/zqcrafts/SkySense-O)|
+|**XLRS-Bench**|**XLRS-Bench: Could Your Multimodal LLMs Understand Extremely Large Ultra-High-Resolution Remote Sensing Imagery?**|CVPR2025|[XLRS-Bench](https://arxiv.org/abs/2503.23771)|[link](https://xlrs-bench.github.io/)|
+|**GeoPix**|**GeoPix: Multi-Modal Large Language Model for Pixel-level Image Understanding in Remote Sensing**|IEEE GRSM2025|[GeoPix](https://arxiv.org/abs/2501.06828)|[link](https://github.com/Norman-Ou/GeoPix)|
+|**GeoPixel**|**GeoPixel: Pixel Grounding Large Multimodal Model in Remote Sensing**|ICML2025|[GeoPixel](https://arxiv.org/abs/2501.13925)|[link](https://github.com/mbzuai-oryx/GeoPixel)|
 |**-**|**Quality-Driven Curation of Remote Sensing Vision-Language Data via Learned Scoring Models**|Arxiv2025|[Paper](https://arxiv.org/abs/2503.00743)|null|
-|**GeoLangBind**|**GeoLangBind: Unifying Earth Observation with Agglomerative Vision-Language Foundation Models**|Arxiv2025|[Paper](https://arxiv.org/abs/2503.06312)|[link](https://github.com/xiong-zhitong/GeoLB-SigLIP)|
-|**LRS-VQA**|**When Large Vision-Language Model Meets Large Remote Sensing Imagery: Coarse-to-Fine Text-Guided Token Pruning**|Arxiv2025|[Paper](https://arxiv.org/abs/2503.07588)|[link](https://github.com/VisionXLab/LRS-VQA)|
-|**Falcon**|**Falcon: A Remote Sensing Vision-Language Foundation Model**|Arxiv2025|[Paper](https://arxiv.org/abs/2503.11070)|[link](https://github.com/TianHuiLab/Falcon)|
-|**OmniGeo**|**OmniGeo: Towards a Multimodal Large Language Models for Geospatial Artificial Intelligence**|Arxiv2025|[Paper](https://arxiv.org/abs/2503.16326)|null|
-|**XLRS-Bench**|**XLRS-Bench: Could Your Multimodal LLMs Understand Extremely Large Ultra-High-Resolution Remote Sensing Imagery?**|CVPR2025|[Paper](https://arxiv.org/abs/2503.23771)|[link](https://xlrs-bench.github.io/)|
-|**EagleVision**|**EagleVision: Object-level Attribute Multimodal LLM for Remote Sensing**|Arxiv2025|[Paper](https://arxiv.org/abs/2503.23330)|[link](https://github.com/XiangTodayEatsWhat/EagleVision)|
+|**DOFA-CLIP**|**DOFA-CLIP: Multimodal Vision–Language Foundation Models for Earth Observation**|Arxiv2025|[DOFA-CLIP](https://arxiv.org/abs/2503.06312)|[link](https://github.com/xiong-zhitong/GeoLB-SigLIP)|
+|**Falcon**|**Falcon: A Remote Sensing Vision-Language Foundation Model**|Arxiv2025|[Falcon](https://arxiv.org/abs/2503.11070)|[link](https://github.com/TianHuiLab/Falcon)|
+|**LRS-VQA**|**When Large Vision-Language Model Meets Large Remote Sensing Imagery: Coarse-to-Fine Text-Guided Token Pruning**|ICCV2025|[LRS-VQA](https://arxiv.org/abs/2503.07588)|[link](https://github.com/VisionXLab/LRS-VQA)|
+|**UrbanLLaVA**|**UrbanLLaVA: A Multi-modal Large Language Model for Urban Intelligence with Spatial Reasoning and Understanding**|ICCV2025|[UrbanLLaVA](https://arxiv.org/abs/2506.23219)|[link](https://github.com/tsinghua-fib-lab/UrbanLLaVA)|
+|**OmniGeo**|**OmniGeo: Towards a Multimodal Large Language Models for Geospatial Artificial Intelligence**|Arxiv2025|[OmniGeo](https://arxiv.org/abs/2503.16326)|null|
+|**EagleVision**|**EagleVision: Object-level Attribute Multimodal LLM for Remote Sensing**|Arxiv2025|[EagleVision](https://arxiv.org/abs/2503.23330)|[link](https://github.com/XiangTodayEatsWhat/EagleVision)|
+|**SegEarth-R1**|**SegEarth-R1: Geospatial Pixel Reasoning via Large Language Model**|Arxiv2025|[LISAt](https://arxiv.org/abs/2504.09644)|[link](https://github.com/earth-insights/SegEarth-R1)|
+|**RemoteSAM**|**RemoteSAM: Towards Segment Anything for Earth Observation**|ACMMM2025|[RemoteSAM](https://arxiv.org/abs/2505.18022)|[link](https://github.com/1e12Leon/RemoteSAM)|
+|**DynamicVL**|**DynamicVL: Benchmarking Multimodal Large Language Models for Dynamic City Understanding**|Arxiv2025|[DynamicVL](https://arxiv.org/abs/2505.21076)|null|
+|**LISAt**|**LISAt: Language- Instructed Segmentation Assistant for Satellite Imagery**|Arxiv2025|[LISAt](https://arxiv.org/abs/2505.02829)|[link](https://lisat-bair.github.io/LISAt/)|
+|**EarthMind**|**EarthMind: Towards Multi-Granular and Multi-Sensor Earth Observation with Large Multimodal Models**|Arxiv2025|[EarthMind](https://arxiv.org/abs/2506.01667)|[link](https://github.com/shuyansy/EarthMind)|
+|**-**|**Remote Sensing Large Vision-Language Model: Semantic-augmented Multi-level Alignment and Semantic-aware Expert Modeling**|Arxiv2025|[Paper](https://arxiv.org/abs/2506.21863)|null|
+|**RingMo-Agent**|**RingMo-Agent: A Unified Remote Sensing Foundation Model for Multi-Platform and Multi-Modal Reasoning**|Arxiv2025|[RingMo-Agent](https://arxiv.org/abs/2507.20776)|null|
+
 
 ## Remote Sensing <ins>Generative</ins> Foundation Models
 
@@ -215,7 +239,11 @@
 |**GeoLLM-QA**|**Evaluating Tool-Augmented Agents in Remote Sensing Platforms**|ICLR 2024 ML4RS Workshop|[Paper](https://arxiv.org/abs/2405.00709)|null|
 |**RS-Agent**|**RS-Agent: Automating Remote Sensing Tasks through Intelligent Agents**|Arxiv2024|[Paper](https://arxiv.org/abs/2406.07089)|null|
 |**Change-Agent**|**Change-Agent: Toward Interactive Comprehensive Remote Sensing Change Interpretation and Analysis**|TGRS2024|[Paper](https://ieeexplore.ieee.org/abstract/document/10591792)|[link](https://github.com/Chen-Yang-Liu/Change-Agent)|
+|**GeoLLM-Engine**|**GeoLLM-Engine: A Realistic Environment for Building Geospatial Copilots.**|CVPRW2024|[Paper](https://openaccess.thecvf.com/content/CVPR2024W/EarthVision/html/Singh_GeoLLM-Engine_A_Realistic_Environment_for_Building_Geospatial_Copilots_CVPRW_2024_paper.html)|null|
 |**PEACE**|**PEACE: Empowering Geologic Map Holistic Understanding with MLLMs**|CVPR2025|[Paper](https://arxiv.org/abs/2501.06184)|[link](https://github.com/microsoft/PEACE?tab=readme-ov-file)|
+|**-**|**Towards LLM Agents for Earth Observation: The UnivEARTH Dataset**|Arxiv2025|[Paper](https://arxiv.org/abs/2504.12110)|null|
+|**Geo-OLM**|**Geo-OLM: Enabling Sustainable Earth Observation Studies with Cost-Efficient Open Language Models & State-Driven Workflows**|COMPASS'2025|[Paper](https://arxiv.org/abs/2504.04319)|[link](https://github.com/dstamoulis/geo-olms)|
+|**ThinkGeo**|**ThinkGeo: Evaluating Tool-Augmented Agents for Remote Sensing Tasks**|Arxiv2025|[Paper](https://arxiv.org/abs/2505.23752)|[link](https://github.com/mbzuai-oryx/ThinkGeo)|
 
 ## Benchmarks for RSFMs
 |Abbreviation|Title|Publication|Paper|Link|Downstream Tasks|
@@ -327,5 +355,29 @@ If you find this repository useful, please consider giving a star :star: and cit
   journal={The Innovation},
   year={2025},
   publisher={Elsevier}
+}
+
+@article{wu2025semantic,
+  author = {Wu, Kang and Zhang, Yingying and Ru, Lixiang and Dang, Bo and Lao, Jiangwei and Yu, Lei and Luo, Junwei and Zhu, Zifan and Sun, Yue and Zhang, Jiahao and Zhu, Qi and Wang, Jian and Yang, Ming and Chen, Jingdong and Zhang, Yongjun and Li, Yansheng},
+  title= {A semantic‑enhanced multi‑modal remote sensing foundation model for Earth observation},
+  journal= {Nature Machine Intelligence},
+  year= {2025},
+  doi= {10.1038/s42256-025-01078-8},
+  url= {https://doi.org/10.1038/s42256-025-01078-8}
+}
+
+@inproceedings{zhu2025skysense,
+  title={Skysense-o: Towards open-world remote sensing interpretation with vision-centric visual-language modeling},
+  author={Zhu, Qi and Lao, Jiangwei and Ji, Deyi and Luo, Junwei and Wu, Kang and Zhang, Yingying and Ru, Lixiang and Wang, Jian and Chen, Jingdong and Yang, Ming and others},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={14733--14744},
+  year={2025}
+}
+
+@article{luo2024skysensegpt,
+  title={Skysensegpt: A fine-grained instruction tuning dataset and model for remote sensing vision-language understanding},
+  author={Luo, Junwei and Pang, Zhen and Zhang, Yongjun and Wang, Tingzhu and Wang, Linlin and Dang, Bo and Lao, Jiangwei and Wang, Jian and Chen, Jingdong and Tan, Yihua and others},
+  journal={arXiv preprint arXiv:2406.10100},
+  year={2024}
 }
 ```
